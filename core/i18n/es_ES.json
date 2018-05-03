@@ -1,0 +1,85 @@
+{
+    "plugins\/ftpd\/plugin_info\/info.xml": {
+        "Plugin de récupération de photo envoye par camera en ftp sur détection de mouvement": "Plug-in de recuperación de fotos enviado por cámara a través de  ftp por detección de movimiento"
+    },
+    "plugins\/ftpd\/plugin_info\/configuration.php": {
+        "Commande ftpd": "Comando ftpd",
+        "Commande arp-scan": "Comando arp-scan",
+        "Detecter les programme ftpd et arp-scan": "Detectar programas de ftpd y arp-scan",
+        "Port ftpd": "Puerto ftpd",
+        "Local IP": "IP local",
+        "IP Autorisées": "IP autorizadas",
+        "Debug daemon": "Depuración del demonio",
+        "Chemin des enregistrements": "Ruta de grabación"
+    },
+    "plugins\/ftpd\/desktop\/js\/ftpd.js": {
+        "Nom": "Nombre",
+        "Historiser": "Historizar",
+        "Afficher": "Mostrar",
+        "Tester": "Prueba",
+        "Sauvegarde réussie": "Guardado con exito",
+        "Inverser": "Invertir"
+    },
+    "plugins\/ftpd\/core\/class\/ftpd.class.php": {
+        "Impossible d'envoyer la commande KILL_FTPD au deamon": "Imposible enviar el comando KILL_FTPD al demonio",
+        "Impossible de communiquer avec le deamon": "Imposible de comunicar con el demonio",
+        "daemon start : ": "arranque demonio :",
+        "Prepare conf daemon": "Preparar conf demonio",
+        "PID file : ": "Fichero PID :",
+        "PID file exist, PID : ": "El archivo PID existe, PID :",
+        "Process exist": "Proceso existente",
+        "Retrieve ftpd.py process with PID : ": "Recupere el proceso ftpd.py con PID :",
+        "PID file doesn't exist": "El archivo PID no existe",
+        "Process not found": "Proceso no encontrado",
+        "Pid file not found": "Archivo pid no encontrado"
+    },
+    "plugins\/ftpd\/desktop\/php\/ftpd.php": {
+        "Detecter": "Detectar",
+        "Gestion": "Gestión",
+        "Configuration": "Configuración",
+        "Mes equipements": "Mis dispositivos",
+        "Général": "General",
+        "Nom de l'équipement": "Nombre del dispositivo",
+        "Nom de la ftpd": "Nombre del ftpd",
+        "Objet parent": "Objeto padre",
+        "Aucun": "Ninguno",
+        "Catégorie": "Categoría",
+        "Activer": "Activar",
+        "Visible": "Visible",
+        "Indicateurs": "Indicadores",
+        "Nom": "Nombre",
+        "Icône": "Icono",
+        "Sous-Type": "Sub-Tipo",
+        "Paramètres": "Parámetros",
+        "Action": "Acción",
+        "Supprimer": "Borrar",
+        "Sauvegarder": "Guardar",
+        "Nombre max de fichier": "Número máximo de archivos",
+        "Délai reset status": "Délai estado de reinicio",
+        "Identifiant de l'équipement": "Identificador del equipo",
+        "Ajouter une pattern image": "Añadir un patrón de imagen",
+        "Pattern": "Patrón"
+    },
+    "plugins\/ftpd\/desktop\/modal\/ftpd.history.php": {
+        "L'équipement est introuvable : ": "Dispositivo no encontrado : ",
+        "Tout supprimer": "Borrar todo",
+        "Tout télécharger": "Descargar todo",
+        "Supprimer": "Borrar",
+        "Télécharger": "Descargar"
+    },
+    "plugins\/ftpd\/core\/ajax\/ftpd.ajax.php": {
+        "Aucune methode correspondante à : ": "Ningún método correspondiente a :"
+    },
+    "plugins\/ftpd\/desktop\/modal\/ftpd.displayImage.php": {
+        "Précédente": "Anterior",
+        "Suivante": "Siguiente",
+        "L'id ne peut etre vide": "La identificación no puede estar vacía"
+    },
+    "plugins\/ftpd\/core\/api\/ftpd.api.php": {
+        "Aucune methode correspondante à : ": "Ningún método correspondiente a :",
+        "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Pathfile not found": "ruta de fichero no encontrada",
+        "Pathfile not in CaptureDir : ": "Ruta de fichero no esta en CaptureDIr :",
+        "Pathfile not found : ": "Ruta de fichero no encontrada :"
+    }
+}
