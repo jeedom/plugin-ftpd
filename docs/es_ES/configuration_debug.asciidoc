@@ -1,0 +1,21 @@
+Hay 2 niveles de depuración del plugin.
+
+==== Debug del plugin
+
+Este nivel de depuración le permite analizar la forma en que funciona el plugin. Para ello, haga clic en *Plugins / Seguridad / Ftpd*
+
+En la parte superior derecha de la página, sólo tiene que elegir el nivel de registro local para depurar.
+
+image::../images/activer_debug_plugin.jpg[align="center"]
+
+El registro para este nivel de análisis se llama Ftpd.
+
+==== Debug del demonio
+
+Este nivel de depuración le permite analizae el funcionamiento del demonio. Para ello, haga clic en *Plugins / Seguridad / Ftpd*
+
+En la parte inferior, elige el debug del demonio
+
+image::../images/activer_debug_daemon.jpg[align="center"]
+
+El registro correspondiente a este nivel de análisis se llama Ftpd_daemon.

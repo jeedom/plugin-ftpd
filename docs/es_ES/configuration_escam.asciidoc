@@ -1,0 +1,13 @@
+Es necesario conectar en http en la cámara y pasar al menú  Install => SYSTEME => Serv. d'reseau => FTP
+
+Aquí hay una captura de pantalla que debe configurar :
+
+image::../images/configuration_escam.jpg[align="center"]
+
+<IP_JEEDOM> Corresponde a la dirección IP de jeedom.
+
+<PORT_PLUGIN> Corresponde al puerto ftpd  que se ha introducido en la página de configuración del plugin (8888 por defecto).
+
+No se requiere ninguna información de cuenta, contraseña o directorio.
+
+A continuación, vaya al menú Centre d'alarm para definir cuándo enviar las imágenes.

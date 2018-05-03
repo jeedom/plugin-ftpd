@@ -1,0 +1,15 @@
+Man muss sich über http mit der Kamera verbinden und dann ins Menü FTP-Dienst Einstellungen gehen.
+
+Hier ist eine Kopie vom Bildschirm, die zeigt, was man einstellen muss :
+
+image::../images/configuration_foscam_FI8910W.jpg[align="center"]
+
+image::../images/configuration_foscam.jpg[align="center"]
+
+<IP_JEEDOM> Ist die IP-Adresse von Ihrem jeedom.
+
+<PORT_PLUGIN> Entspricht dem ftpd Port, der auf der Plugin-Konfigurationsseite eingegeben wurde (standardmäßig 8888).
+
+Es ist nicht notwendig, Konto, Passwort oder Verzeichnis abzufragen. 
+
+Man muss danach ins Menü Alarm-Service Einstellungen gehen, um zu definieren, wenn Bilder gesendet werden.

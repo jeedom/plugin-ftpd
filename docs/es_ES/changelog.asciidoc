@@ -1,0 +1,38 @@
+ADVERTENCIA: Detalles completos de las actualizaciones en https://github.com/guenneguezt/plugin-ftpd/commits/master[History Commit]
+
+Lista de las principales desarrollos de la versión actual :
+
+- Prise en compte des multiples images en une second.
+- Mise au standard de la gestion des équipements
+
+Antiguos desarrollos :
+
+- Añadida la creación dinámica de miniaturas de imágenes para mostrarlas en un historial más rápido.
+- Añadido para detener o iniciar la grabación de archivos.
+- Añadida la posibilidad de gestionar notificaciones de correo electrónico con la captura adjunta.
+- Añadido un pequeño icono en el historico para saber si es un vídeo o una imagen.
+- Corrección para que los vídeos aparezcan previsualizados en el historico
+- Corrección para excluir directorios que comienzan con un "."
+- Añadido un botón para restablecer el directorio de almacenamiento de imágenes
+- Corrección del directorio de almacenamiento de imágenes
+- Tener en cuenta los comandos DELE
+- Borrado de imágenes cuando el equipo está desactivado
+- Corrección del icono
+- Optimización del demonio
+- Corrección de patrones
+- Añadida una clave API específica al plugin
+- Añadido registros log para patrones
+- Las imágenes no se tienen en cuenta si el dispositivo está desactivado.
+- Corrección para funcionar si la IP Autorizada está vacío.
+- Corrección del comando ALLO
+- Añadido mensaje de error cuando el demonio no se comunica con Jeedom.
+- No tener en cuenta la IP configurada en administración=>red.
+- Soporte para configuraciones https autofirmadas.
+- Corrección de los refrescos de imagen
+- Corregido el problema de la copia de seguridad: Ya existe un comando con este nombre (Estado) para este dispositivo.
+- Modificación para compatibilidad con Jeedom V3
+- No más seguimiento de versiones
+- Añadido soporte de comando de tipo patrón.
+- Gestión de entrar en el fondo del demonio.
+- Se corrige cuando las capturas están fuera del directorio Jeedom.
+- Primera versión beta.

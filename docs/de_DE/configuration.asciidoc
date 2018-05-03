@@ -1,0 +1,23 @@
+Wir werden jetzt das Plugin konfigurieren. Um dies zu tun, klicken Sie auf *Plugins / Sicherheit / ftpd*.
+
+Dann definieren Sie die Eigenschaften :
+- Eltern Objekt
+- Kategorie (optional)
+- Aktivieren (standardmäßig aktiviert)
+- Sichtbar' (optional, wenn Sie nicht wünschen, dass es auf dem Armaturenbrett sichtbar ist)
+- max Datei Anzahl : Maximale Anzahl von gespeicherten Dateien.
+
+image::../images/ftpd_screenshot2.jpg[align="center"]
+
+Klicken Sie abschließend auf Speichern.
+
+Il est possible de rajouter des commandes types pattern pour distinguer les déclanchements en fonction du nom du fichier.
+http://php.net/manual/fr/function.preg-match.php[Doc php pattern]
+
+image::../images/configuration_pattern.jpg[align="center"]
+
+Par exemple, avec ce qui suit, la commande ne se active que si le fichier commence par def.
+[source,]
+----
+/^def/
+----

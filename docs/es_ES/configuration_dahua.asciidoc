@@ -1,0 +1,19 @@
+Debe conectarse por http a la cámara y acceder al menú Storage => Destination => FTP.
+
+Aquí hay una captura de pantalla que debe configurar :
+
+image::../images/configuration_dahua.jpg[align="center"]
+
+<IP_JEEDOM>  Corresponde a la dirección IP de jeedom.
+
+<PORT_PLUGIN> Corresponde al puerto ftpd  que se ha introducido en la página de configuración del plugin (8888 por defecto).
+
+No es necesario ingresar el Nombre de Usuario, Contraseña o Directorio Remoto.
+
+A continuación, vaya al menú Storage => Destination => Path para activar el envío de fotos en caso de detección de movimiento para establecer cuándo enviar imágenes.
+
+image::../images/configuration_dahua2.jpg[align="center"]
+
+Finalmente, vaya al menú Event => Video Detection => Motion Detection para configurar los criterios de detección de movimiento.
+
+image::../images/configuration_dahua3.jpg[align="center"]

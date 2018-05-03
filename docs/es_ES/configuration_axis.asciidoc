@@ -1,0 +1,13 @@
+Debe conectarse por http a la cámara y acceder al menú Event => Event servers => Add FTP.
+
+Aquí hay una captura de pantalla que debe configurar :
+
+image::../images/configuration_axis.jpg[align="center"]
+
+<IP_JEEDOM> Corresponde a la dirección IP de jeedom.
+
+<PORT_PLUGIN> Corresponde al puerto ftpd  que se ha introducido en la página de configuración del plugin (8888 por defecto).
+
+No se requiere ninguna información de cuenta, contraseña o directorio.
+
+Luego vaya al menú Alarm Service Settings para establecer cuándo enviar las imágenes.
