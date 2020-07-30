@@ -10,5 +10,7 @@
 	"hasOwnDeamon" : true,
 	"maxDependancyInstallTime" : 45,
     "changelog" : "https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html#_changelog",
-    "documentation" : "https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html"
+    "documentation" : "https://jeedom.github.io/documentation/third_plugin/ftpd/#language#/index.html",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }
